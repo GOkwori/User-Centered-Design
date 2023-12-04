@@ -1,34 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=Smooch&display=swap');
+/*---------------------------Colours------------------------*/
 
-/*------------Colour-----------*/
-
-
-
-
-/*------------Headings-----------*/
-h1 {
-    font-family: "Smooch" sans-serif;
+header {
+    background-color: #2a2a2a;
 }
 
+.col-6 {
+    color: white;
+}
 
+.nav-tabs li a i:hover {
+    background: #f19f84;
+}
 
+footer {
+    background-color: #2a2a2a;
+}
 
-/*------------Header-----------*/
-.logo {
-    height: 150px;
-    width: 150px;
+/*-----------------------Headings-----------------------*/
+
+header {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url(#);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
+    padding-bottom: 5px;
 }
-    
+
+.container-fluid {
+    margin: 0;
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    max-width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
+.col-6 {
+    padding-top: 10px;
+    font-family: "Roboto" sans-serif;
+    font-weight: 500;
+}
+
+.col-3 {
+    padding-top: 30px;
+}
+
+#concert-border {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(17\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    overflow: hidden;
+    opacity: 0;
+}
+
+/*---------------Animation keyframes--------------*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*---------Apply animation to the hero image----------*/
+
+.animate-fade-in {
+    animation: fadeIn 1.5s ease-in-out forwards;
+    /* 'forwards' keeps the final style after animation */
+}
 
 
+/*---------Footer----------*/
 
-/*------------Section-----------*/
+footer {
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(16\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    padding-top: 20px;
+}
 
+.social-links {
+    padding-bottom: 0;
+}
 
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #2a2a2a;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
+.social-links li a i:hover {
+    background: #970747;
+}
 
-/*------------Footer-----------*/
+#footer-details {
+    padding: 20px;
+    text-align: end;
+}
 
-
-
+.col-sm-4 p {
+    text-align: left;
+}

@@ -1,7 +1,5 @@
 ![Grizk logo](assets/images/background/IMG_3322.jpg)
 
-# Grizk Official Site
-
 ## UX
 
 ### Project Goals
