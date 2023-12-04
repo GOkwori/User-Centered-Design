@@ -1,39 +1,93 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Grizk logo](assets/images/background/IMG_3322.jpg)
 
-Welcome,
+# Grizk Official Site
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## UX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### Project Goals
 
-## Codeanywhere Reminders
+The main objective of the Grizk Official Website is to deliver an attractive and enlightening platform catering to all art lovers and artists who want to showcase their work. The website is designed to showcase the Gallery's history, highlight their most recent releases, upcoming art exhibitions, and streamline the booking process for artists to participate in exhibitions of their choice. Additionally, the project is aligned with broader business objectives, seeking to enhance both Art & ticket sales while securing additional exhibition bookings.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Art Lovers' Goals
 
-`python3 -m http.server`
+* Learn about the gallery's history and achievements.
+* Discover and preview the latest art work releases.
+* Stay informed about upcoming exhibitions and events.
+* Explore the full art catalog and purchase paintings.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Artists' Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+* Simplify and expedite the exhibition booking process.
+* Provide clear information about the gallery's availability for exhibitions.
+* Ensure collaboration for seamless and successful exhibitions.
 
-`http_server`
+### Developer & Business Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Create a visually appealing and user-friendly website.
+* Increase online presence and engagement.
+* Boost art sales.
+* Streamline the booking process for artists.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### User Stories
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+As an artist, I want to;
 
-To log into the Heroku toolbelt CLI:
+* Easily find information about the gallery.
+* Find out about the gallery's upcoming exhibitions.
+* Be able explore the gallery's art catalogue to view and purchase art work.
+  
+As an Artist, I want to;
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Easily book a place in upcoming exhibitions to showcase my work
+* Know if there's availability in any exhibition
+* Know the locations the exhibitions and the gallery
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Design Choices
 
----
+### Fonts
 
-Happy coding!
+### Icons
+
+### Colours
+
+### Styling
+
+### Background
+
+### Audio Files
+
+### Video Files
+
+### Wireframes
+
+* [Home Page](assets/wireframes/Home%20Page.pdf)
+* [Gallery Page](assets/wireframes/Gallery%20Page.pdf)
+* [Preview Page](assets/wireframes/Preview%20Page.pdf)
+* [Exhibition](assets/wireframes/Exhibition%20Page.pdf)
+* [Booking Page](assets/wireframes/Booking%20Page.pdf)
+
+## Features
+
+* Home Page with Introduction,About us, Latest Release, and Upcoming Events Sections
+* Gallery Page showing full catalogue of exhibition videos and art works
+* Exhibition Page with Upcoming Shows across different locations
+* Bookings Page with Bookings
+
+## Technologies Used
+
+* HTML5
+* CSS3
+
+## Testing
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
+
+### Code
+
+### Acknowledgement
