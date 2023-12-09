@@ -59,11 +59,20 @@ As an Artist, I want to;
 
 ### Wireframes
 
-* ![Home Page](assets/wireframes/Home%20Page.png)
-* ![Gallery Page](assets/wireframes/Gallery%20Page.png)
-* ![Preview Page](assets/wireframes/Preview%20Page.png)
-* ![Exhibition](assets/wireframes/Exhibition%20Page.png)
-* ![Booking Page](assets/wireframes/Booking%20Page.png)
+#### Home Page 
+![Home Page](assets/wireframes/Home%20Page.png)
+
+#### Gallery Page
+![Gallery Page](assets/wireframes/Gallery%20Page.png)
+
+#### Preview Page
+![Preview Page](assets/wireframes/Preview%20Page.png)
+
+#### Exhibition Page
+![Exhibition](assets/wireframes/Exhibition%20Page.png)
+
+#### Booking Page
+![Booking Page](assets/wireframes/Booking%20Page.png)
 
 ## Features
 
