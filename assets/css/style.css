@@ -12,6 +12,10 @@ header {
     color: #fafafa;
 }
 
+.about-us {
+    color: #fafafa;
+}
+
 footer {
     background-color: #4B4453;
     color: #fafafa;
@@ -27,6 +31,8 @@ footer {
 }
 
 
+
+
 /*-----------------------Headings-----------------------*/
 
 header {
@@ -34,7 +40,7 @@ header {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 0;
-    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(11\).jpg);
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -92,12 +98,11 @@ header {
 }
 
 .hero-image {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(17\).jpg);
+    background-image: url(../images/anime/wallpaperflare.com_wallpaper\ -\ 2023-12-03T185711.858.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: relative;
     overflow: hidden;
     opacity: 0;
 }
@@ -120,11 +125,27 @@ header {
     /* 'forwards' keeps the final style after animation */
 }
 
+#second-section {
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-us {
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: justify;
+   font-size: 14px;
+}
+
+
 
 /*---------Footer----------*/
 
 footer {
-    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(11\).jpg);
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     min-height: 50px;
