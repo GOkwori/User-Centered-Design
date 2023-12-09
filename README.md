@@ -1,6 +1,7 @@
+# Grizk Art Gallery
 ![Grizk logo](assets/images/background/IMG_3322.jpg)
 
-## UX
+## User Experience (UX)
 
 ### Project Goals
 
@@ -58,11 +59,11 @@ As an Artist, I want to;
 
 ### Wireframes
 
-* [Home Page](assets/wireframes/Home%20Page.pdf)
-* [Gallery Page](assets/wireframes/Gallery%20Page.pdf)
-* [Preview Page](assets/wireframes/Preview%20Page.pdf)
-* [Exhibition](assets/wireframes/Exhibition%20Page.pdf)
-* [Booking Page](assets/wireframes/Booking%20Page.pdf)
+* ![Home Page](assets/wireframes/Home%20Page.png)
+* ![Gallery Page](assets/wireframes/Gallery%20Page.png)
+* ![Preview Page](assets/wireframes/Preview%20Page.png)
+* ![Exhibition](assets/wireframes/Exhibition%20Page.png)
+* ![Booking Page](assets/wireframes/Booking%20Page.png)
 
 ## Features
 

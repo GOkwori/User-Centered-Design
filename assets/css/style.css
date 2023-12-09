@@ -1,42 +1,58 @@
 /*---------------------------Colours------------------------*/
 
 header {
-    background-color: #2a2a2a;
+    background-color: #4B4453;
 }
 
 .col-6 {
     color: white;
 }
 
-.nav-tabs li a i:hover {
-    background: #f19f84;
+.navbar-nav li a {
+    color: #fafafa;
 }
 
 footer {
-    background-color: #2a2a2a;
+    background-color: #4B4453;
+    color: #fafafa;
 }
+
+.social-links li a i {
+    color: #fafafa;
+    background: #4B4453;
+}
+
+.social-links li a i:hover {
+    background: #D5CABD;
+}
+
 
 /*-----------------------Headings-----------------------*/
 
 header {
     margin: 0;
     padding-top: 10px;
-    padding-left: 0;
+    padding-left: 10px;
     padding-right: 0;
-    background-image: url(#);
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(11\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.row {
+    padding: 0px;
+}
+
 #logo {
-    height: 75px;
-    width: 75px;
+    height: 85px;
+    width: 85px;
     border-radius: 50%;
     padding-bottom: 5px;
 }
 
 .container-fluid {
     margin: 0;
+    padding: 0px;
 }
 
 .col {
@@ -44,7 +60,7 @@ header {
     flex-basis: 0;
     -ms-flex-positive: 1;
     max-width: 100%;
-    padding: 0;
+    padding-left: 10px;
     text-align: left;
 }
 
@@ -55,10 +71,20 @@ header {
 }
 
 .col-3 {
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 40px;
 }
 
-#concert-border {
+.navbar-nav li a {
+    font-size: 14px;
+    line-height: 7px;
+    text-align: end;
+}
+
+/*-----------------------xxxxxxxx-----------------------*/
+
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -68,7 +94,7 @@ header {
 .hero-image {
     height: 600px;
     width: 100%;
-    background-image: url(../images/wallpaperflare.com_wallpaper\ \(17\).jpg);
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(17\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: relative;
@@ -98,11 +124,10 @@ header {
 /*---------Footer----------*/
 
 footer {
-    background-image: url(../images/wallpaperflare.com_wallpaper\ \(16\).jpg);
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(11\).jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    color: #fafafa;
-    min-height: 120px;
+    min-height: 50px;
     margin: 0;
     padding-top: 20px;
 }
@@ -119,16 +144,10 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #2a2a2a;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #970747;
 }
 
 #footer-details {
