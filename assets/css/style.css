@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=MonteCarlo&family=Smooch&display=swap');
+
 /*---------------------------Colours------------------------*/
 
 header {
@@ -50,8 +52,8 @@ header {
 }
 
 #logo {
-    height: 85px;
-    width: 85px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     padding-bottom: 5px;
 }
@@ -75,6 +77,11 @@ header {
     font-family: "Roboto" sans-serif;
     font-weight: 500;
 }
+
+h1 {
+    font-family: "MonteCarlo", cursive;
+}
+
 
 .col-3 {
     padding-top: 40px;
@@ -100,7 +107,6 @@ header {
 .hero-image {
     height: 100%;
     width: 100%;
-    background-image: url(../images/anime/wallpaperflare.com_wallpaper\ -\ 2023-12-03T185711.858.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -108,6 +114,7 @@ header {
 }
 
 /*---------------Animation keyframes--------------*/
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -117,6 +124,8 @@ header {
         opacity: 1;
     }
 }
+
+
 
 /*---------Apply animation to the hero image----------*/
 
@@ -133,11 +142,11 @@ header {
 }
 
 .about-us {
-   padding-top: 20px;
-   padding-left: 20px;
-   padding-right: 20px;
-   text-align: justify;
-   font-size: 14px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 14px;
 }
 
 
