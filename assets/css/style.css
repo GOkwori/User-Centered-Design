@@ -87,6 +87,8 @@ h1 {
     padding-top: 40px;
     padding-bottom: 0px;
     padding-left: 40px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navbar-nav li a {
@@ -98,7 +100,7 @@ h1 {
 /*-----------------------xxxxxxxx-----------------------*/
 
 #hero-outer {
-    height: 600px;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     position: relative;
