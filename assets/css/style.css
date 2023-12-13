@@ -1,17 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Hedvig+Letters+Serif:opsz@12..24&family=MonteCarlo&family=Smooch&display=swap');
-
 /*---------------------------Colours------------------------*/
 
 header {
     background-color: #4B4453;
+    height: 100%;
 }
 
 .col-6 {
     color: white;
 }
 
-.navbar-nav li a {
+a {
     color: #fafafa;
+}
+
+.col a:hover {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.navbar-nav .nav-item a {
+    color: #fafafa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #fafafa;
+    text-decoration: none;
 }
 
 .about-us {
@@ -51,30 +66,20 @@ header {
     padding: 0px;
 }
 
-#logo {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    padding-bottom: 5px;
-}
-
 .container-fluid {
     margin: 0;
     padding: 0px;
 }
 
 .col {
-    -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    -ms-flex-positive: 1;
     max-width: 100%;
     padding-left: 10px;
+    padding-top: 10px;
     text-align: left;
 }
 
 .col-6 {
-    padding-top: 10px;
-    font-family: "Roboto" sans-serif;
     font-weight: 500;
 }
 
@@ -91,23 +96,27 @@ h1 {
     justify-content: flex-end;
 }
 
+.nav-bar {
+    padding-bottom: 0px;
+}
+
 .navbar-nav li a {
     font-size: 14px;
     line-height: 7px;
     text-align: end;
 }
 
-/*-----------------------xxxxxxxx-----------------------*/
+/*-----------------------Section-----------------------*/
 
 #hero-outer {
-    height: 100%;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 .hero-image {
-    height: 100%;
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,29 +136,33 @@ h1 {
     }
 }
 
-
-
 /*---------Apply animation to the hero image----------*/
 
 .animate-fade-in {
     animation: fadeIn 1.5s ease-in-out forwards;
-    /* 'forwards' keeps the final style after animation */
 }
 
-#second-section {
+.about-us {
     background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
     background-size: cover;
     overflow: hidden;
     position: relative;
-}
-
-.about-us {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
     font-size: 14px;
 }
+
+.about-us h2 {
+    font-family: "MonteCarlo", cursive;
+}
+
+.about-us h2 p {
+    font-family: "MonteCarlo", cursive;
+}
+
+
 
 
 
@@ -177,9 +190,6 @@ footer {
     line-height: 7px;
     text-align: center;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 #footer-details {
