@@ -35,11 +35,10 @@ a {
 
 #second-section {
     color: #fafafa
+    background-color: #4B4453;
 }
 
-.grid-images {
-    background-color: #fafafa;
-}
+
 
 footer {
     background-color: #4B4453;
@@ -180,7 +179,15 @@ h1 {
 
 #inner-section {
     height: 100%;
-    width:50%;
+   width: auto;
+}
+
+#latest-release {
+    float: left;
+}
+
+#exhibition-list {
+    float: right;
 }
 
 #latest-release img {
@@ -188,6 +195,7 @@ h1 {
     width: 342px;
     align-content:space-between;
 }
+
 
 /*---------Footer----------*/
 
