@@ -33,6 +33,14 @@ a {
     color: #fafafa;
 }
 
+#second-section {
+    color: #fafafa
+}
+
+.grid-images {
+    background-color: #fafafa;
+}
+
 footer {
     background-color: #4B4453;
     color: #fafafa;
@@ -136,12 +144,11 @@ h1 {
     }
 }
 
-
 .animate-fade-in {
     animation: fadeIn 1.5s ease-in-out forwards;
 }
 
-.about-us {
+#second-section {
     background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
     background-size: cover;
     overflow: hidden;
@@ -149,6 +156,16 @@ h1 {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: justify;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#second-section h2 {
+    font-family: "MonteCarlo", cursive;
+}
+
+.about-us {
     text-align: justify;
     font-size: 14px;
 }
@@ -161,9 +178,16 @@ h1 {
     font-family: "MonteCarlo", cursive;
 }
 
+#inner-section {
+    height: 100%;
+    width:50%;
+}
 
-
-
+#latest-release img {
+    height: 200px;
+    width: 342px;
+    align-content:space-between;
+}
 
 /*---------Footer----------*/
 
