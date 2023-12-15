@@ -39,6 +39,10 @@ a {
 }
 
 
+#inner-section h2 {
+   color: #fafafa;
+}
+
 
 footer {
     background-color: #4B4453;
@@ -180,20 +184,22 @@ h1 {
 #inner-section {
     height: 100%;
    width: auto;
+   display: inline-block;
 }
 
 #latest-release {
     float: left;
+    width: 40%;
 }
 
 #exhibition-list {
     float: right;
+    width: 40%;
 }
 
 #latest-release img {
     height: 200px;
     width: 342px;
-    align-content:space-between;
 }
 
 
