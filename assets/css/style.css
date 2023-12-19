@@ -5,7 +5,7 @@
 }
 
 body {
-    bottom: #4b4453;
+    background-color: #4B4453;
 }
 
 /*---------------------------Colours------------------------*/
@@ -53,13 +53,11 @@ a {
     color: #fafafa;
 }
 
-.upcoming-exhibitions {
-    background-color: #fafafa;
-}
 
 .exhibition-list-item {
     color: #fafafa;
 }
+
 
 footer {
     background-color: #4B4453;
@@ -230,13 +228,19 @@ h1 {
     width: 100%;
     height: 100%;
     border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
 }
 
 .upcoming-exhibitions {
     width: 90%;
     display: flex;
     justify-content: center;
-    float: center;
+    float: right;
+    padding-right: 20px;
 }
 
 .exhibition-list-item {
@@ -273,6 +277,10 @@ h1 {
 
 .exhibition-list-item a {
     font-size: 12px;
+}
+
+.exhibition-list-item a:hover {
+    text-decoration: none;
 }
 
 /*---------Footer----------*/
