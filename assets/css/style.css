@@ -5,6 +5,8 @@
 }
 
 body {
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
+    background-size: cover;
     background-color: #4B4453;
 }
 
@@ -58,6 +60,9 @@ a {
     color: #fafafa;
 }
 
+#second-section h2 {
+    color: #fafafa;
+}
 
 footer {
     background-color: #4B4453;
@@ -281,6 +286,20 @@ h1 {
 
 .exhibition-list-item a:hover {
     text-decoration: none;
+}
+
+#second-section h2 {
+    font-family: "MonteCarlo", cursive;
+    width: 100%;
+    background-image: url(../images/abstract/wallpaperflare.com_wallpaper\ \(9\).jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    display: inline-block;
 }
 
 /*---------Footer----------*/
