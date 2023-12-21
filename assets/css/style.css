@@ -10,6 +10,23 @@ body {
     background-color: #4b4453;
 }
 
+body h2 {
+    color: #fafafa;
+    text-align: center;
+    font-family: "MonteCarlo", cursive;
+    transition: transform 0.3s ease-in-out;
+}
+
+body h2:hover {
+    transform: scale(1.1);
+}
+
+body p {
+    color: #fafafa;
+    text-align: justify;
+    padding: 0, 20px;
+}
+
 /*---------------------------Colours------------------------*/
 
 header {
@@ -342,6 +359,16 @@ h1 {
     display: flexbox;
     justify-content: center;
     align-items: center;
+}
+
+#booking-intro p {
+    padding: 0 20px;
+}
+
+form {
+    color: #fafafa;
+    padding: 0 20px;
+    width: 100%;
 }
 
 /*---------Footer----------*/
