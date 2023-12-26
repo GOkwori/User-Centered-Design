@@ -1,428 +1,484 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
-    background-image: url(../images/abstract/backgroundmain.jpg);
-    background-size: cover;
-    background-color: #4b4453;
-    background-repeat: no-repeat;
-    background-position: center;
+  background-image: url(../images/abstract/backgroundmain.jpg);
+  background-size: cover;
+  background-color: #4b4453;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p {
+  padding: 0 20px;
 }
 
 body h2 {
-    color: #fafafa;
-    text-align: center;
-    font-family: "MonteCarlo", cursive;
-    transition: transform 0.3s ease-in-out;
+  color: #fafafa;
+  text-align: center;
+  font-family: "MonteCarlo", cursive;
+  transition: transform 0.3s ease-in-out;
 }
 
 body h2:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 body p {
-    color: #fafafa;
-    text-align: justify;
-    padding: 0, 20px;
+  color: #fafafa;
+  text-align: justify;
+  padding: 0, 20px;
 }
 
 /*---------------------------Colours------------------------*/
 
 header {
-    background-color: #4b4453;
-    height: auto;
-    margin: 0;
-    width: 100%;
+  background-color: #4b4453;
+  height: auto;
+  margin: 0;
+  width: 100%;
 }
 
 .col-6 {
-    color: white;
+  color: white;
 }
 
 a {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 .col a:hover {
-    text-decoration: none;
-    color: #fafafa;
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .navbar-nav .nav-item a {
-    color: #fafafa;
-    text-decoration: none;
-    transition: color 0.3s;
+  color: #fafafa;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .navbar-nav .nav-item a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .about-us {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 #first-section {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 #inner-section h2 {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 .exhibition-list-item {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 #second-section h2 {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 #location-thumbnail div p {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 #booking-form label {
-    color: #fafafa;
+  color: #fafafa;
 }
 
 footer {
-    background-color: #4b4453;
-    color: #fafafa;
+  background-color: #4b4453;
+  color: #fafafa;
 }
 
 .social-links li a i {
-    color: #fafafa;
-    background: #4b4453;
+  color: #fafafa;
+  background: #4b4453;
 }
 
 /*-----------------------Headings-----------------------*/
 
 header {
-    margin: 0;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 0;
-    background-image: url(../images/abstract/backgroundmain.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 0;
+  background-image: url(../images/abstract/backgroundmain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: scroll;
 }
 
 .row {
-    padding: 0px;
+  padding: 0px;
 }
 
 .container-fluid {
-    margin: 0;
-    padding: 0px;
+  margin: 0;
+  padding: 0px;
 }
 
 .col {
-    flex-basis: 0;
-    max-width: 100%;
-    padding-left: 10px;
-    padding-top: 10px;
-    text-align: left;
+  flex-basis: 0;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  text-align: left;
 }
 
 .col-6 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 h1 {
-    font-family: "MonteCarlo", cursive;
+  font-family: "MonteCarlo", cursive;
 }
 
 .col-3 {
-    padding-top: 40px;
-    padding-bottom: 0px;
-    padding-left: 40px;
-    display: flex;
-    justify-content: flex-end;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-bar {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-nav li a {
-    font-size: 14px;
-    line-height: 7px;
-    text-align: end;
+  font-size: 14px;
+  line-height: 7px;
+  text-align: end;
 }
 
 /*-----------------------Section-----------------------*/
 
 #hero-outer {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .hero-image {
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 .animate-fade-in {
-    animation: fadeIn 1.5s ease-in-out forwards;
+  animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 #first-section {
-    background-image: url(../images/abstract/backgroundmain.jpg);
-    background-size: cover;
-    overflow: hidden;
-    height: auto;
-    width: 100%;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: justify;
-    font-size: 14px;
-    display: inline-block;
+  background-image: url(../images/abstract/backgroundmain.jpg);
+  background-size: cover;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  font-size: 14px;
+  display: inline-block;
 }
 
 #first-section h2 {
-    font-family: "MonteCarlo", cursive;
+  font-family: "MonteCarlo", cursive;
 }
 
 .about-us {
-    text-align: justify;
-    font-size: 14px;
-    padding: 0 10px;
+  text-align: justify;
+  font-size: 14px;
+  padding: 0;
 }
 
 .about-us h2 {
-    font-family: "MonteCarlo", cursive;
+  font-family: "MonteCarlo", cursive;
 }
 
 .about-us h2 p {
-    font-family: "MonteCarlo", cursive;
-    width: 100%;
+  font-family: "MonteCarlo", cursive;
+  width: 100%;
 }
 
 #inner-section {
-    height: 100%;
-    width: auto;
-    display: inline-block;
+  height: 100%;
+  width: auto;
+  display: inline-block;
 }
 
 #inner-section h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #latest-release {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 
 #exhibition-list {
-    float: right;
-    width: 50%;
+  float: right;
+  width: 50%;
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-    padding: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 0 10px;
 }
 
 .image-grid img {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .image-grid img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.exhibition-container {
+  float: right;
+  width: 90%;
 }
 
 .upcoming-exhibitions {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    float: right;
-    padding-right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
 }
 
 .exhibition-list-item {
-    padding: 0 20px;
-    background-image: url(../images/abstract/backgroundmain.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 70px;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    transition: transform 0.3s ease-in-out;
+  padding: 0 20px;
+  background-image: url(../images/abstract/backgroundmain.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .exhibition-list-item:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .exhibition-date {
-    width: auto;
-    font-size: 12px;
+  width: auto;
+  font-size: 12px;
 }
 
 .exhibition-list-item h3 {
-    font-family: "MonteCarlo", cursive;
-    text-align: center;
+  font-family: "MonteCarlo", cursive;
+  text-align: center;
 }
 
 .exhibition-list-item p {
-    text-align: center;
-    width: auto;
-    font-size: 12px;
+  text-align: center;
+  width: auto;
+  font-size: 12px;
 }
 
 .exhibition-list-item a {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .exhibition-list-item a:hover {
-    text-decoration: none;
-    color: #4b4453;
+  text-decoration: none;
+  color: #4b4453;
 }
 
 .h2-mod {
-    transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .h2-mod:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #second-section {
-    background-image: url(../images/abstract/backgroundmain.jpg);
-    background-size: cover;
-    background-position: bottom;
-    overflow: hidden;
-    height: auto;
-    width: 100%;
-    padding-bottom: 20px;
+  background-image: url(../images/abstract/backgroundmain.jpg);
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
 #second-section h2 {
-    font-family: "MonteCarlo", cursive;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
+  font-family: "MonteCarlo", cursive;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 #second-section h2:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #location-thumbnail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 #location-thumbnail img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
-    margin-right: 20px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 20px;
 }
 
 #location-thumbnail img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #location-thumbnail div p {
-    font-family: "MonteCarlo", cursive;
-    text-align: center;
+  font-family: "MonteCarlo", cursive;
+  text-align: center;
 }
 
 .location-items {
-    display: flexbox;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+    margin-bottom: 10px;
+}
+
+
+#gallery-container {
+    background-color: #fafafa;
+    background-color: fixed;
+    padding: 10px 0 5px 5px;
+}
+
+#section-container {
+  display: flex;
+  justify-content: inline-block;
+  height: 500px;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  margin-right: 40px;
+}
+
+#video {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
+  position: top;
+}
+
+#exhibition-page-items {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  float: right;
+}
+
+.upcoming-exhibitions1 {
+    width: 90%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #booking-section {
-    height: 600px;
+  height: 600px;
 }
 
-#booking-intro p {
-    padding: 0 20px;
+.booking-intro p {
+  padding: 0 20px;
 }
 
 #booking-form {
-    width: 60%;
-    display: block;
-    justify-content: center;
-    padding-left: 20px;
-}
-
-#form-button {
-    align-content: center;
+  width: 60%;
+  display: block;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 /*---------Footer----------*/
 
 footer {
-    background-image: url(../images/abstract/backgroundmain.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
-    height: auto;
-    width: 100%;
-    margin: 0;
-    padding-top: 40px;
+  background-image: url(../images/abstract/backgroundmain.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding-top: 40px;
 }
 
 .social-links {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    transition: all 0.35s ease-in-out;
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 #footer-details {
-    padding: 20px;
-    text-align: end;
-    font-size: 10px;
+  padding: 20px;
+  text-align: end;
+  font-size: 10px;
 }
 
 .col-sm-4 p {
-    text-align: left;
+  text-align: left;
 }
